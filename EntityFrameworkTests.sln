@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQueryableVsIEnumerable_Net
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQueryableVsIEnumerable_NetCore", "netCoreApp\IQueryableVsIEnumerable_NetCore.csproj", "{FB3EEF52-A084-422D-A065-FCF0260C57FC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IQuerableVsIEnumerable", "IQuerableVsIEnumerable", "{972E1CB9-AEC0-4AA1-B352-FCC2948E0BC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{495A3D9A-C282-4E0D-BBC0-F1AFF63E4CD9} = {972E1CB9-AEC0-4AA1-B352-FCC2948E0BC7}
+		{FB3EEF52-A084-422D-A065-FCF0260C57FC} = {972E1CB9-AEC0-4AA1-B352-FCC2948E0BC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {595050C8-FDF9-489D-822B-803CC174E2DE}
