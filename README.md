@@ -2,7 +2,7 @@
 
 Proyecto creado para verificar ciertos tematicas que me causaron incertidumbre respecto a EntityFramework (Core)
 
-## Duda 1:  IEnumerable vs IQueryable
+## Duda 1: IEnumerable vs IQueryable
 <details>
   <summary>Ver detalle</summary>
   
@@ -48,6 +48,10 @@ Proyecto creado para verificar ciertos tematicas que me causaron incertidumbre r
   Y asi sucesivamente. Puedes ver el detalle de las funciones generadas al final (Work In Progress)
   
 </details>
+
+## Duda 2: Proyecciones de entre entidades de EF (Core)
+
+> Work in progress
 
 ## Codigo SQL generado por C# con LINQ To Entities
 <details>
