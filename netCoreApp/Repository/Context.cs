@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace netCoreApp.Repository
+namespace IQueryableVsIEnumerable_NetCore.Repository
 {
 
     public class Context : DbContext

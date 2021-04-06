@@ -1,29 +1,30 @@
-﻿using netCoreApp.Repository;
+﻿using IQueryableVsIEnumerable_NetCore.Repository;
 using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
+using static System.Console;
 
-namespace netCoreApp
+namespace IQueryableVsIEnumerable_NetCore
 {
     class Program
     {
         static void Main(string[] args)
         {
             MeasureFacturesOneCondition();
-            Console.WriteLine("----------------------------------------------------");
+            WriteLine("----------------------------------------------------");
             MeasureFacturesTwoCondition();
-            Console.WriteLine("----------------------------------------------------");
+            WriteLine("----------------------------------------------------");
 
             MeasureFacturesDetailOneCondition();
-            Console.WriteLine("----------------------------------------------------");
+            WriteLine("----------------------------------------------------");
             MeasureFacturesDetailTwoCondition();
-            Console.WriteLine("----------------------------------------------------");
+            WriteLine("----------------------------------------------------");
 
             MeasureFacturesDetailTwoConditionWithOr();
-            Console.WriteLine("----------------------------------------------------");
+            WriteLine("----------------------------------------------------");
 
-            Console.ReadLine();
+            ReadLine();
         }
 
         private static void MeasureFacturesOneCondition()
