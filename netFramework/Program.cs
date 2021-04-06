@@ -1,11 +1,11 @@
-﻿using IQueryableVsIEnumerable_Net.Repository;
+﻿using IQueryableVsIEnumerable_Net_Seeder.Repository;
 using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using static System.Console;
 
-namespace IQueryableVsIEnumerable_Net
+namespace IQueryableVsIEnumerable_Net_Seeder
 {
     public class Program
     {

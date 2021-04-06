@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IQueryableVsIEnumerable_Net.Repository
+namespace IQueryableVsIEnumerable_Net_Seeder.Repository
 {
 
     public class Context : DbContext

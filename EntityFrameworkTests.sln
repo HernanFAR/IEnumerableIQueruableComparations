@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQueryableVsIEnumerable_Net", "netFramework\IQueryableVsIEnumerable_Net.csproj", "{495A3D9A-C282-4E0D-BBC0-F1AFF63E4CD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQueryableVsIEnumerable_Net_Seeder", "netFramework\IQueryableVsIEnumerable_Net_Seeder.csproj", "{495A3D9A-C282-4E0D-BBC0-F1AFF63E4CD9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netCoreApp", "netCoreApp\netCoreApp.csproj", "{FB3EEF52-A084-422D-A065-FCF0260C57FC}"
 EndProject
