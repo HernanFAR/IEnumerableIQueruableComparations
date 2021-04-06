@@ -1,7 +1,6 @@
 ﻿using EntityProjections_NetCore.Repository;
-using Microsoft.EntityFrameworkCore;
-using System;
 using System.Linq;
+using static System.Console;
 
 namespace EntityProjections_NetCore
 {
@@ -12,13 +11,29 @@ namespace EntityProjections_NetCore
         {
             using var context = new Context();
 
-            var projected = context.Categories
+            WriteLine($"Proyectando entidades de tipo {{{typeof(Category).Name}}} a tipo {{{typeof(ProjectionClass).Name}}}...");
+
+            var projectedNonRelated = context.Categories
                 .Where(e => e.Id % 2 == 0)
                 .Select(e => new ProjectionClass 
                 { 
                     Name = e.Name 
                 })
                 .ToList();
+
+            WriteLine($"Logrado");
+
+            WriteLine($"Proyectando entidades de tipo {{{typeof(Category).Name}}} a tipo {{{typeof(Product).Name}}}...");
+
+            var projectedRelatedByBd = context.Categories
+                .Where(e => e.Id % 2 == 0)
+                .Select(e => new Product 
+                { 
+                    Name = e.Name 
+                })
+                .ToList();
+
+            WriteLine($"Logrado");
         }
     }
 }
