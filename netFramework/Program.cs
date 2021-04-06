@@ -1,11 +1,11 @@
-﻿using netFramework.Repository;
+﻿using IQueryableVsIEnumerable_Net.Repository;
 using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using static System.Console;
 
-namespace netFramework
+namespace IQueryableVsIEnumerable_Net
 {
     public class Program
     {

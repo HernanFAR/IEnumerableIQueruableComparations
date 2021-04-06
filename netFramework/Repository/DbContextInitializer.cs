@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 
-namespace netFramework.Repository
+namespace IQueryableVsIEnumerable_Net.Repository
 {
     internal class DbContextInitializer : CreateDatabaseIfNotExists<Context>
     {
