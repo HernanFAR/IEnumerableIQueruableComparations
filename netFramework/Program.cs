@@ -12,12 +12,17 @@ namespace IQueryableVsIEnumerable_Net_Seeder
         static void Main(string[] args)
         {
             MeasureFacturesOneCondition();
+            WriteLine("----------------------------------------------------");
             MeasureFacturesTwoCondition();
+            WriteLine("----------------------------------------------------");
 
             MeasureFacturesDetailOneCondition();
+            WriteLine("----------------------------------------------------");
             MeasureFacturesDetailTwoCondition();
+            WriteLine("----------------------------------------------------");
 
             MeasureFacturesDetailTwoConditionWithOr();
+            WriteLine("----------------------------------------------------");
 
             ReadLine();
         }
