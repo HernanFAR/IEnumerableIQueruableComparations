@@ -53,6 +53,14 @@ Proyecto creado para verificar ciertos tematicas que me causaron incertidumbre r
 
 > Work in progress
 
+## Duda 3: Agregado de entidades relacionadas en contextos diferentes (Modo desconectado) EF (Core)
+
+> Work in progress
+
+## Duda 4: Uso de SplitQuery para performance EF Core
+
+> Work in progress
+
 ## Codigo SQL generado por C# con LINQ To Entities
 <details>
   <summary>Ver consultas</summary>
